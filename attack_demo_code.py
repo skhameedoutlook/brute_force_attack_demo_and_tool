@@ -2,7 +2,7 @@ import urllib
 from urllib.request import urlopen
 
 url = 'http://localhost/attack_demo/checkdata.php'
-values = {'username': 'use1',
+values = {'username': 'use2',
             'password': ''}
 
 data = urllib.parse.urlencode(values)
