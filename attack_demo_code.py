@@ -26,7 +26,7 @@ min_length = 3
 max_length = 3
 for i in range(min_length, max_length+1):
     makelist(i, 0, "")
-print(len(passlist))
+print("Generated", len(passlist), "passwords.")
 for i in range(0, len(passlist)):
     values['password'] = passlist[i]
     print(values)
